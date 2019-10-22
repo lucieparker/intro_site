@@ -1,0 +1,8 @@
+# to ignore
+.Rproj.user 
+.Rhistory 
+.RData 
+.Ruserdata 
+blogdown 
+Thumbs.db
+public/ 
