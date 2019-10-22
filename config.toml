@@ -1,5 +1,5 @@
 # Site settings
-baseurl = "/" #without ending slash
+baseurl = "https://lucieparker.netlify.com/" #without ending slash
 languageCode = "en-us"
 title = "Lucie Parker"
 theme = "hugo-identity-theme"
@@ -42,16 +42,15 @@ disableKinds = ["page", "section", "taxonomy", "taxonomyTerm", "RSS", "sitemap",
     # If name is not set, author is used
     name = "Lucie Parker"
     # Avatars can be written to images/avatars/
-    avatar = "jane.jpg"
-    position = "Lead Engineer"
-    livesIn = "[New York, New York](#some-maps-url)"
+    avatar = "lucie.jpg"
+    position = "Senior Research Analyst"
+    livesIn = "New York, New York"
     scope = [
-        "UX for [member dashboard](#)",
-        "Maintainer for [awesome-project](#)",
-        "Open Source [community management](#)"
+        "[Crime Lab New York](https://urbanlabs.uchicago.edu/labs/crime-new-york)",
+        #"Maintainer for [awesome-project](#)",
+        #"Open Source [community management](#)"
       ]
-    biography = """Jane Powers is plain awesome. He worked at Corp A and B and is open for new work.  
-Even new lines and other markdown styles are working within the bio."""
+    biography = """"""
 
   # Contact form settings
 
@@ -77,10 +76,10 @@ Even new lines and other markdown styles are working within the bio."""
 
     #postURL = "https://example.com/mailout/"
 
-    enable = false
-    title = "Touch Me!"
-    namePlaceholder = "Lucie Parker"
-    emailPlaceholder = "lap819@gmail.com"
+    enable = true
+    title = "Get in touch"
+    namePlaceholder = "Name"
+    emailPlaceholder = "Email"
     messagePlaceholder = "Message"
     buttonText = "Send it"
     success = "Thank you for contacting us."
