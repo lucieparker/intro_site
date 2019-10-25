@@ -43,11 +43,11 @@ disableKinds = ["page", "section", "taxonomy", "taxonomyTerm", "RSS", "sitemap",
     name = "Lucie Parker"
     # Avatars can be written to images/avatars/
     avatar = "lucie.jpg"
-    position = "Senior Research Analyst"
+    position = "Senior Research Analyst at [Crime Lab New York](https://urbanlabs.uchicago.edu/labs/crime-new-york)"
     livesIn = "New York, New York"
     scope = [
-        "[Crime Lab New York](https://urbanlabs.uchicago.edu/labs/crime-new-york)",
-        #"Maintainer for [awesome-project](#)",
+        "[Resume](resume/Lucie_Parker_Resume_2019.pdf)",
+        #"",
         #"Open Source [community management](#)"
       ]
     biography = """"""
@@ -76,14 +76,14 @@ disableKinds = ["page", "section", "taxonomy", "taxonomyTerm", "RSS", "sitemap",
 
     #postURL = "https://example.com/mailout/"
 
-    enable = true
+    enable = false
     title = "Get in touch"
     namePlaceholder = "Name"
     emailPlaceholder = "Email"
     messagePlaceholder = "Message"
-    buttonText = "Send it"
-    success = "Thank you for contacting us."
-    error = "Message could not be send. Please contact us at "
+    buttonText = "Send"
+    success = "Thank you!."
+    error = "Message could not be sent."
 
     # Google invisible captcha
     #[params.contact.captcha]
@@ -113,6 +113,19 @@ disableKinds = ["page", "section", "taxonomy", "taxonomyTerm", "RSS", "sitemap",
     icon = "fa-instagram"
     link = "https://www.instagram.com/lap819"
     target = "_blank"
+    
+  [[params.social]]
+    title = "LinkedIn"
+    icon = "fa-linkedin"
+    link = "https://www.linkedin.com/in/lucie-parker-85958640/"
+    target = "_blank"
+    
+  [[params.social]]
+    title = "GitHub"
+    icon = "fa-github"
+    link = "https://github.com/lucieparker"
+    target = "_blank"
+
 
   #[[params.social]]
   #  title = "Facebook"
@@ -123,7 +136,7 @@ disableKinds = ["page", "section", "taxonomy", "taxonomyTerm", "RSS", "sitemap",
   # Footer settings
   [params.footer]
     # If copyright is not set, author is used
-    copyright = "Lucie Parker"
+    copyright = "Lucie Parker 2019"
 
   # Page license
   [params.license]
